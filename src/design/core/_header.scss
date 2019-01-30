@@ -1,0 +1,14 @@
+header {
+  position: fixed;
+  height: 13%;
+  width: 100%;
+  background-color: rgba($accentColor, $alpha: 1);
+  font-size: 4.5em;
+  top: 0;
+  @include flexbox;
+
+  h1 {
+    color: $textColor;
+    text-decoration: underline overline solid $textColor;
+  }
+}

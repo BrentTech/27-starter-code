@@ -1,0 +1,19 @@
+@mixin center-horizontal {
+  margin: {
+    left: auto;
+    right: auto;
+  }
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

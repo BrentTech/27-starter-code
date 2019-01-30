@@ -1,0 +1,10 @@
+footer {
+  position: fixed;
+  height: 7%;
+  width: 100%;
+  background-color: rgba($accentColor, $alpha: 1);
+  font-size: 1.5em;
+  color: $textColor;
+  @include flexbox;
+  bottom: 0;
+}
